@@ -1,8 +1,8 @@
 using DDDApplication.Domian.Core.Base;
 
-namespace DDDApplication.Domian.Core.Catalogs.Categories.Category;
+namespace DDDApplication.Domian.Core.Catalogs.Categories.Feature;
 
-public class Feature : Entity<Guid>
+public class Feature : AggregateRoot<FeatureId>
 {
     public string Name { get; private set; }
     public string Description { get; private set; }
