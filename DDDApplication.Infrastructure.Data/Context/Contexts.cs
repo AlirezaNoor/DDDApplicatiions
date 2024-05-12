@@ -14,4 +14,10 @@ public class Contexts : DbContext
     public DbSet<product> Products { get; set; }
     public DbSet<Categories> Categories { get; set; }
     public DbSet<Feature> Features { get; set; }
+
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    {
+        base.OnModelCreating(modelBuilder);
+        modelBuilder.ApplyConfigurationsFromAssembly(typeof(Contexts).Assembly);
+    }
 }

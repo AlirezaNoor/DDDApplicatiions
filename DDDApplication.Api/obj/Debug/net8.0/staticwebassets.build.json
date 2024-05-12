@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "QJFnORVmQxUW04vg8N+UuTMs+DNJcFlwXXURu/CTSpo=",
+  "Source": "DDDApplication.Api",
+  "BasePath": "_content/DDDApplication.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

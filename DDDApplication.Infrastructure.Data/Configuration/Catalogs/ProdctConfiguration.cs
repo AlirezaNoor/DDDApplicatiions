@@ -9,7 +9,7 @@ internal sealed class ProdctConfiguration : IEntityTypeConfiguration<product>
 {
     public void Configure(EntityTypeBuilder<product> builder)
     {
-        builder.ToTable("Products", "Cotalog");
+        builder.ToTable("Products", "Catalog");
         builder.HasKey(x => x.Id);
         builder.Property(x => x.Id).HasConversion(x => x.GuidValue,
             x => new ProductId(x)
@@ -20,14 +20,16 @@ internal sealed class ProdctConfiguration : IEntityTypeConfiguration<product>
         builder.OwnsMany(x => x.ProductFeatures, s =>
         {
             s.WithOwner().HasForeignKey("ProductId");
-            s.ToTable("ProductFeture", "Catelog");
-            s.Property(x => x.FeatureId).HasConversion(x => x.GuidValue,
-                x => new FeatureId(x)
-            );
+            s.ToTable("ProductFeture", "Catalog");
+            
             s.Property(x => x.ProductId).HasConversion(x => x.GuidValue,
                 x => new ProductId(x)
             );
-            s.HasKey("ProductId", "FeaturId");
+            s.Property(x => x.FeatureId).HasConversion(x => x.GuidValue,
+                x => new FeatureId(x)
+            );
+         
+            s.HasKey("ProductId","FeatureId");
         });
     }
 }
