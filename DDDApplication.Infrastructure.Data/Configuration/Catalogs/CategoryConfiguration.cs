@@ -27,6 +27,7 @@ public class CategoryConfiguration : IEntityTypeConfiguration<Categories>
                 v => v.GuidValue,
                 v => new FeatureId(v)
             );
+            s.HasKey("CategoryId", "FeaturId");
         });
     }
 }
