@@ -20,6 +20,10 @@ public class Feature : AggregateRoot<FeatureId>
     {
         return new Feature(name, description, sortCategory);
     }
+    public static Feature CreateFeatureUpdate(Guid id, string name, string description, int sortCategory)
+    {
+        return new Feature(id,name, description, sortCategory);
+    }
     public static Feature CreateFeatureForRemove(FeatureId featureId)
     {
         return new Feature(featureId);
@@ -36,6 +40,14 @@ public class Feature : AggregateRoot<FeatureId>
 
     private Feature(string name, string description, int sortCategory)
     {
+        Name = name;
+        Description = description;
+        this.sortCategory = sortCategory;
+    }
+
+    private Feature(Guid id, string name, string description, int sortCategory)
+    {
+        Id = new FeatureId(id);
         Name = name;
         Description = description;
         this.sortCategory = sortCategory;

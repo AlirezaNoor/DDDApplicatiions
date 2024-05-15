@@ -8,6 +8,8 @@
     ".NETCoreApp,Version=v8.0": {
       "DDDApplication.Api/1.0.0": {
         "dependencies": {
+          "DDDApplication.Application": "1.0.0",
+          "DDDApplication.Infrastructure": "1.0.0",
           "DDDApplication.Infrastructure.Data": "1.0.0",
           "Microsoft.EntityFrameworkCore": "8.0.4",
           "Microsoft.EntityFrameworkCore.Design": "8.0.4",
@@ -1232,9 +1234,33 @@
           "System.Xml.ReaderWriter": "4.3.0"
         }
       },
+      "DDDApplication.Application/1.0.0": {
+        "dependencies": {
+          "DDDApplication.Application.Contract": "1.0.0",
+          "DDDApplication.Domian.Core": "1.0.0",
+          "DDDApplication.Infrastructure": "1.0.0"
+        },
+        "runtime": {
+          "DDDApplication.Application.dll": {}
+        }
+      },
+      "DDDApplication.Application.Contract/1.0.0": {
+        "runtime": {
+          "DDDApplication.Application.Contract.dll": {}
+        }
+      },
       "DDDApplication.Domian.Core/1.0.0": {
         "runtime": {
           "DDDApplication.Domian.Core.dll": {}
+        }
+      },
+      "DDDApplication.Infrastructure/1.0.0": {
+        "dependencies": {
+          "DDDApplication.Domian.Core": "1.0.0",
+          "DDDApplication.Infrastructure.Data": "1.0.0"
+        },
+        "runtime": {
+          "DDDApplication.Infrastructure.dll": {}
         }
       },
       "DDDApplication.Infrastructure.Data/1.0.0": {
@@ -2104,7 +2130,22 @@
       "path": "system.xml.xdocument/4.3.0",
       "hashPath": "system.xml.xdocument.4.3.0.nupkg.sha512"
     },
+    "DDDApplication.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DDDApplication.Application.Contract/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "DDDApplication.Domian.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DDDApplication.Infrastructure/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

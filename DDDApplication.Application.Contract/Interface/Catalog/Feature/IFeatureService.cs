@@ -6,7 +6,7 @@ public interface IFeatureService
 {
     Task Create(FeatureDto dto);
     Task Edite(FeatureDto dto);
-    Task Delete(object id);
-    Task<FeatureDto> GetById(object id);
+    Task Delete(Guid id);
+    Task<FeatureDto> GetById(Guid id);
     Task<List<FeatureDto>> GetAll();
 }

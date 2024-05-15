@@ -1,0 +1,12 @@
+/home/alireza/project/DDD/DDDApplication/DDDApplication.Application.Contract/bin/Debug/net8.0/DDDApplication.Application.Contract.deps.json
+/home/alireza/project/DDD/DDDApplication/DDDApplication.Application.Contract/bin/Debug/net8.0/DDDApplication.Application.Contract.dll
+/home/alireza/project/DDD/DDDApplication/DDDApplication.Application.Contract/bin/Debug/net8.0/DDDApplication.Application.Contract.pdb
+/home/alireza/project/DDD/DDDApplication/DDDApplication.Application.Contract/obj/Debug/net8.0/DDDApplication.Application.Contract.GeneratedMSBuildEditorConfig.editorconfig
+/home/alireza/project/DDD/DDDApplication/DDDApplication.Application.Contract/obj/Debug/net8.0/DDDApplication.Application.Contract.AssemblyInfoInputs.cache
+/home/alireza/project/DDD/DDDApplication/DDDApplication.Application.Contract/obj/Debug/net8.0/DDDApplication.Application.Contract.AssemblyInfo.cs
+/home/alireza/project/DDD/DDDApplication/DDDApplication.Application.Contract/obj/Debug/net8.0/DDDApplication.Application.Contract.csproj.CoreCompileInputs.cache
+/home/alireza/project/DDD/DDDApplication/DDDApplication.Application.Contract/obj/Debug/net8.0/DDDApplication.Application.Contract.sourcelink.json
+/home/alireza/project/DDD/DDDApplication/DDDApplication.Application.Contract/obj/Debug/net8.0/DDDApplication.Application.Contract.dll
+/home/alireza/project/DDD/DDDApplication/DDDApplication.Application.Contract/obj/Debug/net8.0/refint/DDDApplication.Application.Contract.dll
+/home/alireza/project/DDD/DDDApplication/DDDApplication.Application.Contract/obj/Debug/net8.0/DDDApplication.Application.Contract.pdb
+/home/alireza/project/DDD/DDDApplication/DDDApplication.Application.Contract/obj/Debug/net8.0/ref/DDDApplication.Application.Contract.dll

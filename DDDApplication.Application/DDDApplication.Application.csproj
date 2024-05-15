@@ -8,6 +8,8 @@
 
     <ItemGroup>
       <ProjectReference Include="..\DDDApplication.Application.Contract\DDDApplication.Application.Contract.csproj" />
+      <ProjectReference Include="..\DDDApplication.Domian.Core\DDDApplication.Domian.Core.csproj" />
+      <ProjectReference Include="..\DDDApplication.Infrastructure\DDDApplication.Infrastructure.csproj" />
     </ItemGroup>
 
 </Project>

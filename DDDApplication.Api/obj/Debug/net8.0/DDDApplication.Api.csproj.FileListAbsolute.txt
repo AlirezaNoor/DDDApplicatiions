@@ -109,3 +109,9 @@
 /home/alireza/project/DDD/DDDApplication/DDDApplication.Api/obj/Debug/net8.0/DDDApplication.Api.pdb
 /home/alireza/project/DDD/DDDApplication/DDDApplication.Api/obj/Debug/net8.0/DDDApplication.Api.genruntimeconfig.cache
 /home/alireza/project/DDD/DDDApplication/DDDApplication.Api/obj/Debug/net8.0/ref/DDDApplication.Api.dll
+/home/alireza/project/DDD/DDDApplication/DDDApplication.Api/bin/Debug/net8.0/DDDApplication.Infrastructure.dll
+/home/alireza/project/DDD/DDDApplication/DDDApplication.Api/bin/Debug/net8.0/DDDApplication.Infrastructure.pdb
+/home/alireza/project/DDD/DDDApplication/DDDApplication.Api/bin/Debug/net8.0/DDDApplication.Application.Contract.dll
+/home/alireza/project/DDD/DDDApplication/DDDApplication.Api/bin/Debug/net8.0/DDDApplication.Application.dll
+/home/alireza/project/DDD/DDDApplication/DDDApplication.Api/bin/Debug/net8.0/DDDApplication.Application.pdb
+/home/alireza/project/DDD/DDDApplication/DDDApplication.Api/bin/Debug/net8.0/DDDApplication.Application.Contract.pdb
