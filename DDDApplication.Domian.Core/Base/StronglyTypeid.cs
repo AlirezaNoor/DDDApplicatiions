@@ -14,7 +14,7 @@ public abstract class StronglyTypeid<T> : ValueObject<StronglyTypeid<T>>
                 throw new BesineceExption("id most not emty");
             }
 
-            _id = GuidValue;
+            _id = value;
         }
     }
 

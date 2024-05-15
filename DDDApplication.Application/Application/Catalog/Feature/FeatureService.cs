@@ -20,8 +20,8 @@ public class FeatureService : IFeatureService
     {
         var result =
             Domian.Core.Catalogs.Categories.Feature.Feature.CreateFeature(dto.Name, dto.Description, dto.order);
-        _featureRepository.Insert(result);
-        _unitOfWorks.SaveChanges();
+       await _featureRepository.Insert(result);
+       await _unitOfWorks.SaveChanges();
     }
 
     public async Task Edite(FeatureDto dto)

@@ -16,11 +16,12 @@ public class UnitOfWork : IUnitOfWorks
 
     public void Dispose()
     {
-        _dbContext.Dispose();
+        // _dbContext.Dispose();
     }
 
     public async Task SaveChanges()
     {
-        _dbContext.SaveChangesAsync();
+       await _dbContext.SaveChangesAsync();
+        _dbContext.SaveChanges();
     }
 }

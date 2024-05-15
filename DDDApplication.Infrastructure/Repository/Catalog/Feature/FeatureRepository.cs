@@ -16,9 +16,9 @@ public class FeatureRepository : IFeatureRepository
 
     public async Task<FeatureId> Insert(Domian.Core.Catalogs.Categories.Feature.Feature feature)
     {
-        var result = Domian.Core.Catalogs.Categories.Feature.Feature.CreateFeature(feature.Name, feature.Description,
-            feature.sortCategory);
-        return result.Id;
+ 
+       await Dbcontext.Features.AddAsync(feature);
+        return feature.Id;
     }
 
     public async Task Update(Domian.Core.Catalogs.Categories.Feature.Feature feature)
