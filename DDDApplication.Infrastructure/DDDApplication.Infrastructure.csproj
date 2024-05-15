@@ -6,4 +6,13 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <Folder Include="Repository\Catalog\Category\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\DDDApplication.Domian.Core\DDDApplication.Domian.Core.csproj" />
+      <ProjectReference Include="..\DDDApplication.Infrastructure.Data\DDDApplication.Infrastructure.Data.csproj" />
+    </ItemGroup>
+
 </Project>

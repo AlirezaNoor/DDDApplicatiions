@@ -1,4 +1,5 @@
 using DDDApplication.Api.Configuration;
+using DDDApplication.Infrastructure.Registreations;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,6 +10,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.ApiConfig(builder.Configuration);
+builder.Services.RegisteraionMethod();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

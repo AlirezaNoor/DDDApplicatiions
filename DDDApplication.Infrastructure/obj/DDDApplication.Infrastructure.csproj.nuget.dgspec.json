@@ -4,6 +4,140 @@
     "/home/alireza/project/DDD/DDDApplication/DDDApplication.Infrastructure/DDDApplication.Infrastructure.csproj": {}
   },
   "projects": {
+    "/home/alireza/project/DDD/DDDApplication/DDDApplication.Domian.Core/DDDApplication.Domian.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/alireza/project/DDD/DDDApplication/DDDApplication.Domian.Core/DDDApplication.Domian.Core.csproj",
+        "projectName": "DDDApplication.Domian.Core",
+        "projectPath": "/home/alireza/project/DDD/DDDApplication/DDDApplication.Domian.Core/DDDApplication.Domian.Core.csproj",
+        "packagesPath": "/home/alireza/.nuget/packages/",
+        "outputPath": "/home/alireza/project/DDD/DDDApplication/DDDApplication.Domian.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/alireza/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.103/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/alireza/project/DDD/DDDApplication/DDDApplication.Infrastructure.Data/DDDApplication.Infrastructure.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/alireza/project/DDD/DDDApplication/DDDApplication.Infrastructure.Data/DDDApplication.Infrastructure.Data.csproj",
+        "projectName": "DDDApplication.Infrastructure.Data",
+        "projectPath": "/home/alireza/project/DDD/DDDApplication/DDDApplication.Infrastructure.Data/DDDApplication.Infrastructure.Data.csproj",
+        "packagesPath": "/home/alireza/.nuget/packages/",
+        "outputPath": "/home/alireza/project/DDD/DDDApplication/DDDApplication.Infrastructure.Data/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/alireza/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/alireza/project/DDD/DDDApplication/DDDApplication.Domian.Core/DDDApplication.Domian.Core.csproj": {
+                "projectPath": "/home/alireza/project/DDD/DDDApplication/DDDApplication.Domian.Core/DDDApplication.Domian.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL.Design": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.103/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "/home/alireza/project/DDD/DDDApplication/DDDApplication.Infrastructure/DDDApplication.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -25,7 +159,14 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "/home/alireza/project/DDD/DDDApplication/DDDApplication.Domian.Core/DDDApplication.Domian.Core.csproj": {
+                "projectPath": "/home/alireza/project/DDD/DDDApplication/DDDApplication.Domian.Core/DDDApplication.Domian.Core.csproj"
+              },
+              "/home/alireza/project/DDD/DDDApplication/DDDApplication.Infrastructure.Data/DDDApplication.Infrastructure.Data.csproj": {
+                "projectPath": "/home/alireza/project/DDD/DDDApplication/DDDApplication.Infrastructure.Data/DDDApplication.Infrastructure.Data.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

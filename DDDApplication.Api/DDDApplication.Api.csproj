@@ -26,6 +26,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\DDDApplication.Infrastructure.Data\DDDApplication.Infrastructure.Data.csproj" />
+      <ProjectReference Include="..\DDDApplication.Infrastructure\DDDApplication.Infrastructure.csproj" />
     </ItemGroup>
 
 </Project>

@@ -8,10 +8,31 @@ public class Feature : AggregateRoot<FeatureId>
     public string Description { get; private set; }
     public int sortCategory { get; private set; }
 
- //constructor For Ef core
+    
+    
+    public void FeatureUpdate(string name, string description, int sortCategory)
+    {
+        Name = name;
+        Description = description;
+        this.sortCategory = sortCategory;
+    }
+    public static Feature CreateFeature(string name, string description, int sortCategory)
+    {
+        return new Feature(name, description, sortCategory);
+    }
+    public static Feature CreateFeatureForRemove(FeatureId featureId)
+    {
+        return new Feature(featureId);
+    }
+
+    
+    
+    //constructor For Ef core
     private Feature()
     {
     }
+
+
 
     private Feature(string name, string description, int sortCategory)
     {
@@ -20,8 +41,10 @@ public class Feature : AggregateRoot<FeatureId>
         this.sortCategory = sortCategory;
     }
 
-    public static Feature CreateFeature(string name, string description, int sortCategory)
+    private Feature(FeatureId featureId)
     {
-        return new Feature(name, description, sortCategory);
+        Id = featureId;
     }
+
+
 }

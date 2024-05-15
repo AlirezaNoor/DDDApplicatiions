@@ -2278,6 +2278,20 @@
           "bin/placeholder/DDDApplication.Domian.Core.dll": {}
         }
       },
+      "DDDApplication.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "DDDApplication.Domian.Core": "1.0.0",
+          "DDDApplication.Infrastructure.Data": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DDDApplication.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DDDApplication.Infrastructure.dll": {}
+        }
+      },
       "DDDApplication.Infrastructure.Data/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -7316,6 +7330,11 @@
       "path": "../DDDApplication.Domian.Core/DDDApplication.Domian.Core.csproj",
       "msbuildProject": "../DDDApplication.Domian.Core/DDDApplication.Domian.Core.csproj"
     },
+    "DDDApplication.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../DDDApplication.Infrastructure/DDDApplication.Infrastructure.csproj",
+      "msbuildProject": "../DDDApplication.Infrastructure/DDDApplication.Infrastructure.csproj"
+    },
     "DDDApplication.Infrastructure.Data/1.0.0": {
       "type": "project",
       "path": "../DDDApplication.Infrastructure.Data/DDDApplication.Infrastructure.Data.csproj",
@@ -7324,6 +7343,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "DDDApplication.Infrastructure >= 1.0.0",
       "DDDApplication.Infrastructure.Data >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 8.0.4",
       "Microsoft.EntityFrameworkCore.Design >= 8.0.4",
@@ -7359,6 +7379,9 @@
           "projectReferences": {
             "/home/alireza/project/DDD/DDDApplication/DDDApplication.Infrastructure.Data/DDDApplication.Infrastructure.Data.csproj": {
               "projectPath": "/home/alireza/project/DDD/DDDApplication/DDDApplication.Infrastructure.Data/DDDApplication.Infrastructure.Data.csproj"
+            },
+            "/home/alireza/project/DDD/DDDApplication/DDDApplication.Infrastructure/DDDApplication.Infrastructure.csproj": {
+              "projectPath": "/home/alireza/project/DDD/DDDApplication/DDDApplication.Infrastructure/DDDApplication.Infrastructure.csproj"
             }
           }
         }
