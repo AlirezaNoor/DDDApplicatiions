@@ -41,6 +41,6 @@ public class product : AggregateRoot<ProductId>
         this.code = code;
         this.price = price;
         BuidldFeature(FId);
-        AddDomainEvent(new SendToCustomerEvent(Id.GuidValue,title,price)) ;
+        AddDomainEvent(new SendToCustomerEvent(Id)) ;
     }
 }

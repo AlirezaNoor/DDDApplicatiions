@@ -3,16 +3,13 @@ using MediatR;
 
 namespace DDDApplication.Domian.Core.Catalogs.Products.Event;
 
-public class SendToCustomerEvent : IDoaminEvent, INotification
+public record class SendToCustomerEvent : DoaminEvent
 {
-    public Guid ProductId { get; private set; }
-    public string Title { get; private set; }
-    public double Price { get; private set; }
+    public ProductId ProductId { get; set; }
 
-    public SendToCustomerEvent(Guid productId, string title, double price)
+    public SendToCustomerEvent(ProductId productId)
     {
         ProductId = productId;
-        Title = title;
-        Price = price;
+        AgrigateId = productId.GuidValue;
     }
 }
