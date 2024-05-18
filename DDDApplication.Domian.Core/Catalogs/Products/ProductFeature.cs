@@ -3,25 +3,25 @@ using DDDApplication.Domian.Core.Catalogs.Categories.Feature;
 
 namespace DDDApplication.Domian.Core.Catalogs.Products;
 
-public record class ProductFeature
+public class ProductFeature
 {
+    public ProductId ProductId { get; private set; }
+    public FeatureId FeatureId { get; private set; }
+    public string value { get; private set; }
 
-    public  ProductId  ProductId{ get;   init; }
-    public FeatureId  FeatureId { get;   init; }
-
-    private  ProductFeature()
+    private ProductFeature()
     {
-        
     }
 
-    public static ProductFeature CreateProductFeature(ProductId productId, FeatureId featureId)
+    public static ProductFeature CreateProductFeature(ProductId productId, FeatureId featureId, string valuse)
     {
-        return new ProductFeature(productId, featureId);
+        return new ProductFeature(productId, featureId,valuse);
     }
 
-    public ProductFeature(ProductId productId, FeatureId featureId)
+    public ProductFeature(ProductId productId, FeatureId featureId, string valuse)
     {
         ProductId = productId;
         FeatureId = featureId;
+        valuse = valuse;
     }
 }

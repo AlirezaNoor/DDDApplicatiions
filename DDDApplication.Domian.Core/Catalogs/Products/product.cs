@@ -1,6 +1,7 @@
 using DDDApplication.Domian.Core.Base;
 using DDDApplication.Domian.Core.Catalogs.Categories.Feature;
 using DDDApplication.Domian.Core.Catalogs.Products.Event;
+using DDDApplication.Domian.Core.Sherad;
 
 namespace DDDApplication.Domian.Core.Catalogs.Products;
 
@@ -13,17 +14,17 @@ public class product : AggregateRoot<ProductId>
     private List<ProductFeature> _productFeatures = new List<ProductFeature>();
     public IReadOnlyList<ProductFeature> ProductFeatures => _productFeatures;
 
-    public void BuidldFeature(List<FeatureId> featureIds)
+    public void BuidldFeature(List<ProductFeatureData> featureIds)
     {
         featureIds.ForEach(x =>
         {
-            var newFeature = ProductFeature.CreateProductFeature(Id, x);
+            var newFeature = ProductFeature.CreateProductFeature(x.ProductId,x.FeatureId,x.value);
         });
     }
 
 
     public static product Createproduct(string title, string description, string code, double price,
-        List<FeatureId> FId)
+        List<ProductFeatureData> FId)
     {
         return new product(title, description, code, price, FId);
     }
@@ -33,13 +34,13 @@ public class product : AggregateRoot<ProductId>
     {
     }
 
-    public product(string title, string description, string code, double price, List<FeatureId> FId)
+    public product(string title, string description, string code, double price, List<ProductFeatureData> FId)
     {
         Title = title;
         Description = description;
         this.code = code;
         this.price = price;
         BuidldFeature(FId);
-        AddDomainEvent(new SendToCustomerEvent(Id.GuidValue,title,price));
+        AddDomainEvent(new SendToCustomerEvent(Id.GuidValue,title,price)) ;
     }
 }
