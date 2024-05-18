@@ -1,5 +1,6 @@
 using DDDApplication.Domian.Core.Base;
 using DDDApplication.Domian.Core.Catalogs.Categories.Feature;
+using DDDApplication.Domian.Core.Catalogs.Products.Event;
 
 namespace DDDApplication.Domian.Core.Catalogs.Products;
 
@@ -39,5 +40,6 @@ public class product : AggregateRoot<ProductId>
         this.code = code;
         this.price = price;
         BuidldFeature(FId);
+        AddDomainEvent(new SendToCustomerEvent(Id.GuidValue,title,price));
     }
 }

@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "wqt1ID37FNHiIakgsa64blCkvXi10FmK8718q0/+p6vVC2oo9iwOJPgMcwvPqYMOniSE/+HJghVlhdIEzl8hrQ==",
+  "dgSpecHash": "baiZTJEIrvonWB74XkB/4eSe2zvX+eoBQFOy77hmGGZ+yGpDo/cHSflVLpwx43uGJ6VF3fllxEhG6c3qxQuO4w==",
   "success": true,
   "projectFilePath": "/home/alireza/project/DDD/DDDApplication/DDDApplication.Infrastructure.Data/DDDApplication.Infrastructure.Data.csproj",
   "expectedPackageFiles": [
     "/home/alireza/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
+    "/home/alireza/.nuget/packages/mediatr/12.2.0/mediatr.12.2.0.nupkg.sha512",
+    "/home/alireza/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
     "/home/alireza/.nuget/packages/microsoft.bcl.asyncinterfaces/6.0.0/microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "/home/alireza/.nuget/packages/microsoft.codeanalysis.analyzers/3.3.3/microsoft.codeanalysis.analyzers.3.3.3.nupkg.sha512",
     "/home/alireza/.nuget/packages/microsoft.codeanalysis.common/4.5.0/microsoft.codeanalysis.common.4.5.0.nupkg.sha512",

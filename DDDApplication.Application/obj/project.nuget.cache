@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "fgORzTstg+1YhJ+flUL73EPeF/cROoGlgpR8vKPzhO5AP5W7iTlHbmJ19XUPYn3idZgqPxOC8xaLzHWk0AReoQ==",
+  "dgSpecHash": "x98ttxZUJh0+nHFNt3gIkTqWayGjlDQLplUTZf0ffNMH25mfSquc+UcC31AGhnB0b3a+xQYh3sgJOAI+fknVLQ==",
   "success": true,
   "projectFilePath": "/home/alireza/project/DDD/DDDApplication/DDDApplication.Application/DDDApplication.Application.csproj",
   "expectedPackageFiles": [
+    "/home/alireza/.nuget/packages/mediatr/12.2.0/mediatr.12.2.0.nupkg.sha512",
+    "/home/alireza/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
     "/home/alireza/.nuget/packages/microsoft.entityframeworkcore/8.0.4/microsoft.entityframeworkcore.8.0.4.nupkg.sha512",
     "/home/alireza/.nuget/packages/microsoft.entityframeworkcore.abstractions/8.0.4/microsoft.entityframeworkcore.abstractions.8.0.4.nupkg.sha512",
     "/home/alireza/.nuget/packages/microsoft.entityframeworkcore.analyzers/8.0.4/microsoft.entityframeworkcore.analyzers.8.0.4.nupkg.sha512",

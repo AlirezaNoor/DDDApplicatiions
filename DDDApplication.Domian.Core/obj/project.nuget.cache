@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "2Kniotnh80VO90oxdONuFF6MeVQN/frbR9G7+WiJz06JlKbZYM6Az6aRNWAcHMF0zD/ls4ese/PYQ4ed/BeMZQ==",
+  "dgSpecHash": "Eny+KXVS2S/6l50Tu3buqfp0jiDcZh/ptwtwiE2Ju8zKhxGX0KRY5foqm7f3MheND8wzlRSkR7AqrEBsC/zoTg==",
   "success": true,
   "projectFilePath": "/home/alireza/project/DDD/DDDApplication/DDDApplication.Domian.Core/DDDApplication.Domian.Core.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/alireza/.nuget/packages/mediatr/12.2.0/mediatr.12.2.0.nupkg.sha512",
+    "/home/alireza/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
+    "/home/alireza/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
