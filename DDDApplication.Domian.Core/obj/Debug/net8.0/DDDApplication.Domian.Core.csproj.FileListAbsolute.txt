@@ -1,6 +1,7 @@
 /home/alireza/project/DDD/DDDApplication/DDDApplication.Domian.Core/bin/Debug/net8.0/DDDApplication.Domian.Core.deps.json
 /home/alireza/project/DDD/DDDApplication/DDDApplication.Domian.Core/bin/Debug/net8.0/DDDApplication.Domian.Core.dll
 /home/alireza/project/DDD/DDDApplication/DDDApplication.Domian.Core/bin/Debug/net8.0/DDDApplication.Domian.Core.pdb
+/home/alireza/project/DDD/DDDApplication/DDDApplication.Domian.Core/obj/Debug/net8.0/DDDApplication.Domian.Core.csproj.AssemblyReference.cache
 /home/alireza/project/DDD/DDDApplication/DDDApplication.Domian.Core/obj/Debug/net8.0/DDDApplication.Domian.Core.GeneratedMSBuildEditorConfig.editorconfig
 /home/alireza/project/DDD/DDDApplication/DDDApplication.Domian.Core/obj/Debug/net8.0/DDDApplication.Domian.Core.AssemblyInfoInputs.cache
 /home/alireza/project/DDD/DDDApplication/DDDApplication.Domian.Core/obj/Debug/net8.0/DDDApplication.Domian.Core.AssemblyInfo.cs

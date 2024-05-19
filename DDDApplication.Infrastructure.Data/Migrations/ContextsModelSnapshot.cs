@@ -3,20 +3,17 @@ using System;
 using DDDApplication.Infrastructure.Data.Context;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
-using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 #nullable disable
 
-namespace DDDApplication.Infrastructure.Data.Migrations.Catalogs
+namespace DDDApplication.Infrastructure.Data.Migrations
 {
     [DbContext(typeof(Contexts))]
-    [Migration("20240512082004_initialize")]
-    partial class initialize
+    partial class ContextsModelSnapshot : ModelSnapshot
     {
-        /// <inheritdoc />
-        protected override void BuildTargetModel(ModelBuilder modelBuilder)
+        protected override void BuildModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -134,6 +131,10 @@ namespace DDDApplication.Infrastructure.Data.Migrations.Catalogs
 
                             b1.Property<Guid>("FeatureId")
                                 .HasColumnType("uuid");
+
+                            b1.Property<string>("value")
+                                .IsRequired()
+                                .HasColumnType("text");
 
                             b1.HasKey("ProductId", "FeatureId");
 

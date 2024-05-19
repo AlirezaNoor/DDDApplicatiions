@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace DDDApplication.Infrastructure.Data.Migrations.Catalogs
+namespace DDDApplication.Infrastructure.Data.Migrations
 {
     /// <inheritdoc />
     public partial class Initial : Migration
@@ -88,7 +88,8 @@ namespace DDDApplication.Infrastructure.Data.Migrations.Catalogs
                 columns: table => new
                 {
                     ProductId = table.Column<Guid>(type: "uuid", nullable: false),
-                    FeatureId = table.Column<Guid>(type: "uuid", nullable: false)
+                    FeatureId = table.Column<Guid>(type: "uuid", nullable: false),
+                    value = table.Column<string>(type: "text", nullable: false)
                 },
                 constraints: table =>
                 {

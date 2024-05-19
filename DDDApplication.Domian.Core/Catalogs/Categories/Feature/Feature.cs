@@ -1,4 +1,5 @@
 using DDDApplication.Domian.Core.Base;
+using DDDApplication.Domian.Core.Catalogs.Categories.Feature.Events;
 
 namespace DDDApplication.Domian.Core.Catalogs.Categories.Feature;
 
@@ -46,6 +47,7 @@ public class Feature : AggregateRoot<FeatureId>
         Name = name;
         Description = description;
         this.sortCategory = sortCategory;
+        AddDomainEvent(new SendToCustomerEvent(id));
     }
 
     private Feature(FeatureId featureId)

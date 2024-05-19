@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "d1fm34m/rXAiPGf2p7weuoFNUgvAAj9Atr7EptA/YRKNmQmej5esi42fogeOZqbzbBK8G6DbH8i8fgLKUGqMxQ==",
+  "dgSpecHash": "w9UI77H8pfEm07ZlJ8Yda7rh+So6jbEN575AQqeXQJ/NmonPl4qVhP8YVX1SYqL3dHJGSrgYTbJjTtsC4g8kGg==",
   "success": true,
   "projectFilePath": "/home/alireza/project/DDD/DDDApplication/DDDApplication.Domain.Service/DDDApplication.Domain.Service.csproj",
   "expectedPackageFiles": [
-    "/home/alireza/.nuget/packages/mediatr/12.2.0/mediatr.12.2.0.nupkg.sha512",
-    "/home/alireza/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
-    "/home/alireza/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+    "/home/alireza/.nuget/packages/mediatr/11.0.0/mediatr.11.0.0.nupkg.sha512",
+    "/home/alireza/.nuget/packages/mediatr.contracts/1.0.1/mediatr.contracts.1.0.1.nupkg.sha512",
+    "/home/alireza/.nuget/packages/mediatr.extensions.microsoft.dependencyinjection/11.1.0/mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
+    "/home/alireza/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/7.0.0/microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
   ],
   "logs": []
 }

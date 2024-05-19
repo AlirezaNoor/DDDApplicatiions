@@ -2,18 +2,19 @@ namespace DDDApplication.Domian.Core.Base;
 
 public abstract class AggregateRoot<Tkey>:Entity<Tkey>,IAggregateRoot
 {
-    public IReadOnlyCollection<IDoaminEvent> EventDoamins => _doaminEvents?.AsReadOnly();
+    public IReadOnlyCollection<IDoaminEvent> EventDoamins => _domainEvents?.AsReadOnly();
 
-    protected void AddDomainEvent(IDoaminEvent doaminEvent)
+    protected void AddDomainEvent(IDoaminEvent domainEvent)
     {
-        _doaminEvents = _doaminEvents ?? new List<IDoaminEvent>();
-        _doaminEvents.Add(doaminEvent);
+        _domainEvents = _domainEvents ?? new List<IDoaminEvent>();
+        _domainEvents.Add(domainEvent);
+        //publish
     }
     public void ClearDomainEvent()
     {
-     _doaminEvents.Clear();
+        _domainEvents.Clear();
     }
   
 
-    private List<IDoaminEvent> _doaminEvents;
+    private List<IDoaminEvent> _domainEvents;
 }

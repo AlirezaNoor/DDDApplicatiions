@@ -9,10 +9,10 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 #nullable disable
 
-namespace DDDApplication.Infrastructure.Data.Migrations.Catalogs
+namespace DDDApplication.Infrastructure.Data.Migrations
 {
     [DbContext(typeof(Contexts))]
-    [Migration("20240512081731_Initial")]
+    [Migration("20240519121701_Initial")]
     partial class Initial
     {
         /// <inheritdoc />
@@ -134,6 +134,10 @@ namespace DDDApplication.Infrastructure.Data.Migrations.Catalogs
 
                             b1.Property<Guid>("FeatureId")
                                 .HasColumnType("uuid");
+
+                            b1.Property<string>("value")
+                                .IsRequired()
+                                .HasColumnType("text");
 
                             b1.HasKey("ProductId", "FeatureId");
 

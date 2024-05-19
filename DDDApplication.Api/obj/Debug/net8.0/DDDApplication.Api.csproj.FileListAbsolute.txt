@@ -6,6 +6,8 @@
 /home/alireza/project/DDD/DDDApplication/DDDApplication.Api/bin/Debug/net8.0/DDDApplication.Api.dll
 /home/alireza/project/DDD/DDDApplication/DDDApplication.Api/bin/Debug/net8.0/DDDApplication.Api.pdb
 /home/alireza/project/DDD/DDDApplication/DDDApplication.Api/bin/Debug/net8.0/Humanizer.dll
+/home/alireza/project/DDD/DDDApplication/DDDApplication.Api/bin/Debug/net8.0/MediatR.dll
+/home/alireza/project/DDD/DDDApplication/DDDApplication.Api/bin/Debug/net8.0/MediatR.Contracts.dll
 /home/alireza/project/DDD/DDDApplication/DDDApplication.Api/bin/Debug/net8.0/Microsoft.Bcl.AsyncInterfaces.dll
 /home/alireza/project/DDD/DDDApplication/DDDApplication.Api/bin/Debug/net8.0/Microsoft.CodeAnalysis.dll
 /home/alireza/project/DDD/DDDApplication/DDDApplication.Api/bin/Debug/net8.0/Microsoft.CodeAnalysis.CSharp.dll
@@ -83,9 +85,15 @@
 /home/alireza/project/DDD/DDDApplication/DDDApplication.Api/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll
 /home/alireza/project/DDD/DDDApplication/DDDApplication.Api/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll
 /home/alireza/project/DDD/DDDApplication/DDDApplication.Api/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/home/alireza/project/DDD/DDDApplication/DDDApplication.Api/bin/Debug/net8.0/DDDApplication.Application.Contract.dll
+/home/alireza/project/DDD/DDDApplication/DDDApplication.Api/bin/Debug/net8.0/DDDApplication.Application.dll
 /home/alireza/project/DDD/DDDApplication/DDDApplication.Api/bin/Debug/net8.0/DDDApplication.Domian.Core.dll
 /home/alireza/project/DDD/DDDApplication/DDDApplication.Api/bin/Debug/net8.0/DDDApplication.Infrastructure.Data.dll
+/home/alireza/project/DDD/DDDApplication/DDDApplication.Api/bin/Debug/net8.0/DDDApplication.Infrastructure.dll
+/home/alireza/project/DDD/DDDApplication/DDDApplication.Api/bin/Debug/net8.0/DDDApplication.Application.pdb
 /home/alireza/project/DDD/DDDApplication/DDDApplication.Api/bin/Debug/net8.0/DDDApplication.Infrastructure.Data.pdb
+/home/alireza/project/DDD/DDDApplication/DDDApplication.Api/bin/Debug/net8.0/DDDApplication.Infrastructure.pdb
+/home/alireza/project/DDD/DDDApplication/DDDApplication.Api/bin/Debug/net8.0/DDDApplication.Application.Contract.pdb
 /home/alireza/project/DDD/DDDApplication/DDDApplication.Api/bin/Debug/net8.0/DDDApplication.Domian.Core.pdb
 /home/alireza/project/DDD/DDDApplication/DDDApplication.Api/obj/Debug/net8.0/DDDApplication.Api.csproj.AssemblyReference.cache
 /home/alireza/project/DDD/DDDApplication/DDDApplication.Api/obj/Debug/net8.0/DDDApplication.Api.GeneratedMSBuildEditorConfig.editorconfig
@@ -109,9 +117,4 @@
 /home/alireza/project/DDD/DDDApplication/DDDApplication.Api/obj/Debug/net8.0/DDDApplication.Api.pdb
 /home/alireza/project/DDD/DDDApplication/DDDApplication.Api/obj/Debug/net8.0/DDDApplication.Api.genruntimeconfig.cache
 /home/alireza/project/DDD/DDDApplication/DDDApplication.Api/obj/Debug/net8.0/ref/DDDApplication.Api.dll
-/home/alireza/project/DDD/DDDApplication/DDDApplication.Api/bin/Debug/net8.0/DDDApplication.Infrastructure.dll
-/home/alireza/project/DDD/DDDApplication/DDDApplication.Api/bin/Debug/net8.0/DDDApplication.Infrastructure.pdb
-/home/alireza/project/DDD/DDDApplication/DDDApplication.Api/bin/Debug/net8.0/DDDApplication.Application.Contract.dll
-/home/alireza/project/DDD/DDDApplication/DDDApplication.Api/bin/Debug/net8.0/DDDApplication.Application.dll
-/home/alireza/project/DDD/DDDApplication/DDDApplication.Api/bin/Debug/net8.0/DDDApplication.Application.pdb
-/home/alireza/project/DDD/DDDApplication/DDDApplication.Api/bin/Debug/net8.0/DDDApplication.Application.Contract.pdb
+/home/alireza/project/DDD/DDDApplication/DDDApplication.Api/bin/Debug/net8.0/MediatR.Extensions.Microsoft.DependencyInjection.dll

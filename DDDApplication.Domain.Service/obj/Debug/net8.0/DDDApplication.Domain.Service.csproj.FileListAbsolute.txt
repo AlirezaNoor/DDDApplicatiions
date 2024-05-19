@@ -1,0 +1,16 @@
+/home/alireza/project/DDD/DDDApplication/DDDApplication.Domain.Service/bin/Debug/net8.0/DDDApplication.Domain.Service.deps.json
+/home/alireza/project/DDD/DDDApplication/DDDApplication.Domain.Service/bin/Debug/net8.0/DDDApplication.Domain.Service.dll
+/home/alireza/project/DDD/DDDApplication/DDDApplication.Domain.Service/bin/Debug/net8.0/DDDApplication.Domain.Service.pdb
+/home/alireza/project/DDD/DDDApplication/DDDApplication.Domain.Service/bin/Debug/net8.0/DDDApplication.Domian.Core.dll
+/home/alireza/project/DDD/DDDApplication/DDDApplication.Domain.Service/bin/Debug/net8.0/DDDApplication.Domian.Core.pdb
+/home/alireza/project/DDD/DDDApplication/DDDApplication.Domain.Service/obj/Debug/net8.0/DDDApplication.Domain.Service.csproj.AssemblyReference.cache
+/home/alireza/project/DDD/DDDApplication/DDDApplication.Domain.Service/obj/Debug/net8.0/DDDApplication.Domain.Service.GeneratedMSBuildEditorConfig.editorconfig
+/home/alireza/project/DDD/DDDApplication/DDDApplication.Domain.Service/obj/Debug/net8.0/DDDApplication.Domain.Service.AssemblyInfoInputs.cache
+/home/alireza/project/DDD/DDDApplication/DDDApplication.Domain.Service/obj/Debug/net8.0/DDDApplication.Domain.Service.AssemblyInfo.cs
+/home/alireza/project/DDD/DDDApplication/DDDApplication.Domain.Service/obj/Debug/net8.0/DDDApplication.Domain.Service.csproj.CoreCompileInputs.cache
+/home/alireza/project/DDD/DDDApplication/DDDApplication.Domain.Service/obj/Debug/net8.0/DDDApplication.Domain.Service.sourcelink.json
+/home/alireza/project/DDD/DDDApplication/DDDApplication.Domain.Service/obj/Debug/net8.0/DDDApplication.Domain.Service.csproj.CopyComplete
+/home/alireza/project/DDD/DDDApplication/DDDApplication.Domain.Service/obj/Debug/net8.0/DDDApplication.Domain.Service.dll
+/home/alireza/project/DDD/DDDApplication/DDDApplication.Domain.Service/obj/Debug/net8.0/refint/DDDApplication.Domain.Service.dll
+/home/alireza/project/DDD/DDDApplication/DDDApplication.Domain.Service/obj/Debug/net8.0/DDDApplication.Domain.Service.pdb
+/home/alireza/project/DDD/DDDApplication/DDDApplication.Domain.Service/obj/Debug/net8.0/ref/DDDApplication.Domain.Service.dll
